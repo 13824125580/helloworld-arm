@@ -1,0 +1,24 @@
+
+gen_code_buf.bin:     file format binary
+
+
+Disassembly of section .data:
+
+0000000000000000 <.data>:
+   0:	41 8b 6e dc             	mov    -0x24(%r14),%ebp
+   4:	85 ed                   	test   %ebp,%ebp
+   6:	0f 8c 44 00 00 00       	jl     0x50
+   c:	41 c7 06 01 00 00 00    	movl   $0x1,(%r14)
+  13:	bd 94 80 00 00          	mov    $0x8094,%ebp
+  18:	65 67 8b 6d 00          	mov    %gs:0x0(%ebp),%ebp
+  1d:	41 89 6e 04             	mov    %ebp,0x4(%r14)
+  21:	41 c7 46 08 0c 00 00 00 	movl   $0xc,0x8(%r14)
+  29:	41 c7 46 1c 04 00 00 00 	movl   $0x4,0x1c(%r14)
+  31:	41 c7 46 3c 88 80 00 00 	movl   $0x8088,0x3c(%r14)
+  39:	49 8b fe                	mov    %r14,%rdi
+  3c:	be 02 00 00 00          	mov    $0x2,%esi
+  41:	ba 00 00 00 46          	mov    $0x46000000,%edx
+  46:	b9 01 00 00 00          	mov    $0x1,%ecx
+  4b:	e8 92 cf a1 ff          	callq  0xffffffffffa1cfe2
+  50:	48 8d 05 ec fe ff ff    	lea    -0x114(%rip),%rax        # 0xffffffffffffff43
+  57:	e9 bc fe ff ff          	jmpq   0xffffffffffffff18

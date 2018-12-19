@@ -1,0 +1,1000 @@
+ 1100  git status
+ 1101  ls
+ 1102  vim .gitignore 
+ 1103  git status
+ 1104  ls
+ 1105  vim source/.gitignore 
+ 1106  git status
+ 1107  git checkout source/
+ 1108  git status
+ 1109  vim .gitignore 
+ 1110  ls
+ 1111  git status
+ 1112  ls
+ 1113  git status
+ 1114  vim .gitignore 
+ 1115  ls
+ 1116  git status
+ 1117  cd emo
+ 1118  ls
+ 1119  cd source/
+ 1120  ls
+ 1121  cd emodules/
+ 1122  ls
+ 1123  cd mod_ce
+ 1124  cd drv_display/
+ 1125  ls
+ 1126  cd sun3iw2/
+ 1127  ls
+ 1128  cd lcd/
+ 1129  ls
+ 1130  vim lcd_source.c
+ 1131  croot
+ 1132  mkcscope
+ 1133  vim
+ 1134  git status
+ 1135  pwd
+ 1136  ls
+ 1137  vim
+ 1138  git status
+ 1139  git push
+ 1140  pwd
+ 1141  ls
+ 1142  git pull
+ 1143  ls
+ 1144  cd eboard
+ 1145  ls
+ 1146  cd sun3i/
+ 1147  ls
+ 1148  cd osal/
+ 1149  ls
+ 1150  pd
+ 1151  ls
+ 1152  pwd
+ 1153  ls
+ 1154  git status
+ 1155  pwd
+ 1156  s
+ 1157  ls
+ 1158  cd ..
+ 1159  ls
+ 1160  cd ..
+ 1161  ls
+ 1162  cd ..
+ 1163  ls
+ 1164  sourls
+ 1165  git status
+ 1166  pwd
+ 1167  ls
+ 1168  cd ekernel/
+ 1169  ls
+ 1170  git status
+ 1171  gi tbrnch
+ 1172  git brnch
+ 1173  git push
+ 1174  pwd
+ 1175  ls
+ 1176  pwd
+ 1177  ls
+ 1178  cd ..
+ 1179  ls
+ 1180  git status
+ 1181  git branch
+ 1182  ls
+ 1183  make ekenrel
+ 1184  lunch
+ 1185  make eboot
+ 1186  rm -fr ../toolchain/
+ 1187  make eboot
+ 1188  git status
+ 1189  pwdcd .tmp_versions/booter
+ 1190  ls
+ 1191  cd ..
+ 1192  ls
+ 1193  git status
+ 1194  ls
+ 1195  cd source/
+ 1196  ls
+ 1197  git status
+ 1198  git branch
+ 1199  git checkout melis-v3.1.0-dev
+ 1200  ls
+ 1201  git status
+ 1202  git checkout .
+ 1203  git clean -df
+ 1204  git checkout .
+ 1205  git checkout melis-v3.1.0-dev
+ 1206  git branch
+ 1207  git status
+ 1208  vim .gitignore 
+ 1209  make ekernel
+ 1210  make eboot
+ 1211  cd so
+ 1212  cd .tmp_versions/
+ 1213  ls
+ 1214  cd ..
+ 1215  vim .gitignore 
+ 1216  cd ..
+ 1217  vim .gitignore 
+ 1218  ls
+ 1219  cd source/
+ 1220  vim .gitignore 
+ 1221  git status
+ 1222  git diff
+ 1223  git add .
+ 1224  git status
+ 1225  git commit -s -m "gitignore: ignore hidden files:"
+ 1226  git push
+ 1227  git branch
+ 1228  git checkout melis3.x-release
+ 1229  git branch
+ 1230  git status
+ 1231  git clean -df
+ 1232  git satus
+ 1233  git status
+ 1234  cd ,..
+ 1235  git clean 0df
+ 1236  cd ..
+ 1237  rm -fr toolchain/
+ 1238  ls
+ 1239  git status
+ 1240  ls
+ 1241  cd source/
+ 1242  ls
+ 1243  vim .gitignore 
+ 1244  git status
+ 1245  rm .tmp_versions/
+ 1246  rm -fr .tmp_versions/
+ 1247  git status
+ 1248  rm .ver1 
+ 1249  git satus
+ 1250  git status
+ 1251  ls
+ 1252  vim .gitignore 
+ 1253  git status
+ 1254  git satus
+ 1255  ls
+ 1256  git add  -A
+ 1257  git status
+ 1258  git commit -s -m ".gitignore, update"
+ 1259  git push
+ 1260  source melis-env.sh 
+ 1261  ls
+ 1262  lunch
+ 1263  make menuconfig
+ 1264  make eboot
+ 1265  git status
+ 1266  ls
+ 1267  git status
+ 1268  pwd
+ 1269  ls
+ 1270  git status
+ 1271  cd ..
+ 1272  rm -fr source/
+ 1273  ls
+ 1274  cd so
+ 1275  git checkout source
+ 1276  cd source/
+ 1277  ls
+ 1278  source melis-env.sh 
+ 1279  ls
+ 1280  lunch
+ 1281  make eboot
+ 1282  make
+ 1283  pack
+ 1284  git status
+ 1285  git stsatus
+ 1286  cd projects/
+ 1287  ls
+ 1288  cd beetles/
+ 1289  ls
+ 1290  vim .gitignore 
+ 1291  git status
+ 1292  gvim
+ 1293  ls
+ 1294  vim .gitignore 
+ 1295  ls
+ 1296  cd applets_f1c200s_aw_v1_0/
+ 1297  ls
+ 1298  vim .gitignore 
+ 1299  git stsatus
+ 1300  git status
+ 1301  cd ..
+ 1302  ls
+ 1303  cd ..
+ 1304  ls
+ 1305  cd ..
+ 1306  ls
+ 1307  git status
+ 1308  ls
+ 1309  cd workspace/
+ 1310  ls
+ 1311  cd ..
+ 1312  cd emodules/
+ 1313  ls
+ 1314  cd bin
+ 1315  rm bin
+ 1316  ls
+ 1317  mkdir bin
+ 1318  ls
+ 1319  git status
+ 1320  cd bin/
+ 1321  ls
+ 1322  touch readme.txt
+ 1323  git status
+ 1324  cd ..
+ 1325  git status
+ 1326  cd emo
+ 1327  vim .gitignore 
+ 1328  git status
+ 1329  git add bin/
+ 1330  git status
+ 1331  cd ..
+ 1332  git add .gitignore 
+ 1333  git add projects/
+ 1334  git statsus
+ 1335  git status
+ 1336  git diff emodules/.gitignore
+ 1337  git add emodules/
+ 1338  git status
+ 1339  git diff --cached
+ 1340  git status
+ 1341  git commit -s -m ".gitignore: ignore trifval files"
+ 1342  git push
+ 1343  git status
+ 1344  git branch
+ 1345  git log
+ 1346  git branch
+ 1347  git checkout melis-v3.1.0-dev
+ 1348  git clean -df
+ 1349  git checkout .
+ 1350  git checkout melis-v3.1.0-dev
+ 1351  git status
+ 1352  git branch
+ 1353  git push
+ 1354  ls
+ 1355  git status
+ 1356  git cherry-pick 289ecd46d4b3d65d7c94ee4aec3ec7b93b23993b
+ 1357  git status
+ 1358  diff --cached
+ 1359  git diff --cached
+ 1360  cd emodules/
+ 1361  ls
+ 1362  cd bin/
+ 1363  ls
+ 1364  cd ..
+ 1365  ls
+ 1366  cd ..
+ 1367  git status
+ 1368  git diff -cached
+ 1369  git diff --cached
+ 1370  git diff
+ 1371  git status
+ 1372  cd projects/beetles/
+ 1373  cd applets_f1c200s_aw_v1_0/
+ 1374  ls
+ 1375  vim .gitignore 
+ 1376  git status
+ 1377  git add .
+ 1378  git status
+ 1379  gcd ..
+ 1380  git status
+ 1381  git commit -s -m "ignore: ignreo useles sfiles"
+ 1382  git push
+ 1383  git checkout melis3.x-releas
+ 1384  git checkout melis3.x-release
+ 1385  git status
+ 1386  cd ..
+ 1387  ls
+ 1388  git clean -df
+ 1389  ls
+ 1390  git status
+ 1391  cd ..
+ 1392  git status
+ 1393  git clean -df
+ 1394  git status
+ 1395  ls
+ 1396  cd source/
+ 1397  ls
+ 1398  git status
+ 1399  git branch
+ 1400  git push
+ 1401  ls
+ 1402  git push
+ 1403  pwd
+ 1404  ls
+ 1405  git status
+ 1406  pwd
+ 1407  ls
+ 1408  git status
+ 1409  ls
+ 1410  cd emodules/
+ 1411  ls
+ 1412  cd ..
+ 1413  cd projects/
+ 1414  ls
+ 1415  cd beetles/
+ 1416  ls
+ 1417  cd applets_f1c200s_aw_v1_0/
+ 1418  ls
+ 1419  vim .gitignore 
+ 1420  git status
+ 1421  git diff
+ 1422  git add .
+ 1423  git status
+ 1424  git commit -s -m 
+ 1425  git commit -s -m "release :fix git ignore"
+ 1426  git push
+ 1427  git sttu
+ 1428  git branch
+ 1429  croot
+ 1430  ls
+ 1431  pwd
+ 1432  ls
+ 1433  git push
+ 1434  pwd
+ 1435  ls
+ 1436  vim .gitignore 
+ 1437  git push
+ 1438  ls
+ 1439  git status
+ 1440  pwd
+ 1441  ls
+ 1442  cd emodules/
+ 1443  ls
+ 1444  cd mod_ce
+ 1445  ls
+ 1446  pwd
+ 1447  ls
+ 1448  cd ..
+ 1449  pwd
+ 1450  ls
+ 1451  cd ..
+ 1452  ls
+ 1453  cd ..
+ 1454  pwd
+ 1455  ls
+ 1456  git push
+ 1457  pwd
+ 1458  ls
+ 1459  git pull
+ 1460  ls
+ 1461  cd melis-v3.0
+ 1462  pwd
+ 1463  ls
+ 1464  git push
+ 1465  pwd
+ 1466  ls
+ 1467  git status
+ 1468  pwd
+ 1469  ls
+ 1470  git status
+ 1471  git push
+ 1472  pw
+ 1473  ls
+ 1474  pwd
+ 1475  ls
+ 1476  cd ..
+ 1477  ls
+ 1478  pwd
+ 1479  ls
+ 1480  cd ..
+ 1481  ls
+ 1482  cd mgba/mgba-0.6.3/
+ 1483  ls
+ 1484  cd build/
+ 1485  ls
+ 1486  cd ..
+ 1487  mgba
+ 1488  ls
+ 1489  cd ..
+ 1490  ls
+ 1491  cd mgba-0.6.3/
+ 1492  ls
+ 1493  cd src/
+ 1494  ls
+ 1495  cd sdl
+ 1496  ls
+ 1497  d ..
+ 1498  cd ..
+ 1499  find ./ -type f -name "bios*"
+ 1500  cd build/sdl/
+ 1501  ls
+ 1502  ./mgba -b bios.img ./game.gba 
+ 1503  ls
+ 1504  cd ..
+ 1505  ls
+ 1506  pwd
+ 1507  ls
+ 1508  pwd
+ 1509  ls
+ 1510  cd ..
+ 1511  ls
+ 1512  mkcscope
+ 1513  ls
+ 1514  vim
+ 1515  ls
+ 1516  git sttus
+ 1517  ls
+ 1518  cd -
+ 1519  ls
+ 1520  cd sdl/
+ 1521  ls
+ 1522  gdb -tui ./mgba
+ 1523  q
+ 1524  ls
+ 1525  cd ..
+ 1526  cd riscv/
+ 1527  ls
+ 1528  cd qemu/
+ 1529  ls
+ 1530  cd unicorn/
+ 1531  ls
+ 1532  cd samples/
+ 1533  ls
+ 1534  gdb -tui ./sample_i386
+ 1535  gdb -tui ./sample_x86
+ 1536  tar xvf AudioECHO.tar.gz 
+ 1537  cd auto_install_for_x64/
+ 1538  LS
+ 1539  ls
+ 1540  cd ..
+ 1541  cd AudioECHO/
+ 1542  ls
+ 1543  find  ./ -type f -name "phi_voice_effect*"
+ 1544  find  ./ -type f -name "chorus*"
+ 1545  ls
+ 1546  find  ./ -type f -name "echo*"
+ 1547  find  ./ -type f -name "mmx_optimized*"
+ 1548  find  ./ -type f -name "TDStretch*"
+ 1549  exit
+ 1550  ls
+ 1551  cd W
+ 1552  ls
+ 1553  cd melis-v3.0.x-unify-sdkrel-12-10-2018-
+ 1554  ls
+ 1555  rm -fr melis-v3.0.x-unify-sdkrel-12-10-2018-*
+ 1556  git status
+ 1557  pwd
+ 1558  ls
+ 1559  exit
+ 1560  cd .
+ 1561  cd ..
+ 1562  grep "asm(AREG0)" -nR
+ 1563  grep "AREG0" -nR
+ 1564  grep "AREG0" -nR|grep asm
+ 1565  exit
+ 1566  cd ..
+ 1567  grep "register struct CPUARMState" -nR
+ 1568  grep "register struct" -nR
+ 1569  grep "CPUARMState" -nR
+ 1570  exit
+ 1571  cd ..
+ 1572  find ./ -type f -name "exec.h"
+ 1573  find ./ -type f -name "exe*"
+ 1574  exit
+ 1575  gossh
+ 1576  exit
+ 1577  cd WorkSpace/
+ 1578  ls
+ 1579  cd melis-devel/
+ 1580  ls
+ 1581  cd melis-v3.0/
+ 1582  ls
+ 1583  cd source/
+ 1584  cd emodules/
+ 1585  ls
+ 1586  cd drv_keyboard/
+ 1587  ls
+ 1588  cd sun3i/
+ 1589  ls
+ 1590  cd sun3iw2/
+ 1591  ls
+ 1592  cd sun3iw2p1/
+ 1593  ls
+ 1594  cd ..
+ 1595  ls
+ 1596  cd ..
+ 1597  ls
+ 1598  cd ..
+ 1599  cd drv_matrixkey/
+ 1600  ls
+ 1601  cd sun3i/
+ 1602  ls
+ 1603  cd sun3iw
+ 1604  ls
+ 1605  cd sun3iw2/
+ 1606  ls
+ 1607  cd sun3iw2p2/
+ 1608  ls
+ 1609  cd ..
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  cd drv_keyboard/sun3i/
+ 1614  ls
+ 1615  cd sun3iw2/
+ 1616  ls
+ 1617  cd sun3iw2p2/
+ 1618  ls
+ 1619  cd ..
+ 1620  c d..
+ 1621  ls
+ 1622  cd ..
+ 1623  ls
+ 1624  tree
+ 1625  tree -d
+ 1626  cd ..
+ 1627  ls
+ 1628  cd ..
+ 1629  ls
+ 1630  cd drv_matrixkey/
+ 1631  ls
+ 1632  cd sun3i/
+ 1633  ls
+ 1634  cd sun3iw1/
+ 1635  ls
+ 1636  cd ..
+ 1637  ls
+ 1638  cd sun3iw2
+ 1639  ls
+ 1640  cd sun3iw2p2/
+ 1641  ls
+ 1642  git status
+ 1643  ls
+ 1644  git push
+ 1645  cd ..
+ 1646  ls
+ 1647  cd ..
+ 1648  ls
+ 1649  cd ..
+ 1650  ls
+ 1651  git push
+ 1652  cd ..
+ 1653  ls
+ 1654  exit
+ 1655  ls
+ 1656  pwd
+ 1657  ls
+ 1658  pwd
+ 1659  ls
+ 1660  git push
+ 1661  ls
+ 1662  cd WorkSpace/
+ 1663  ls
+ 1664  pwd
+ 1665  git push
+ 1666  pwd
+ 1667  ls
+ 1668  cd linux-kernel/
+ 1669  ls
+ 1670  cd ..
+ 1671  lks
+ 1672  exit
+ 1673  cd WorkSpace/
+ 1674  ls
+ 1675  cd melis-devel/
+ 1676  ls
+ 1677  cd melis-v3.0
+ 1678  ls
+ 1679  git pull
+ 1680  git branch
+ 1681  git tag
+ 1682  pwd
+ 1683  l
+ 1684  ls
+ 1685  gils
+ 1686  git branch 
+ 1687  git branch -D f1c200s*
+ 1688  git branch -D f1c200s_release
+ 1689  git branch -D f1c800_release
+ 1690  git push
+ 1691  git status
+ 1692  git push --tags
+ 1693  git push origin :f1c200s_release
+ 1694  git push origin :f1c200s_release -f
+ 1695  history|grep push
+ 1696  git push origin :f1c200s_release 
+ 1697  git branch
+ 1698  git log
+ 1699  pwd
+ 1700  ls
+ 1701  git branch
+ 1702  git status
+ 1703  git pull
+ 1704  ls
+ 1705  cd ..
+ 1706  ls
+ 1707  rm -fr melis-v3.0.x-unify-sdkrel-12-12-2018-89490fc/
+ 1708  ls
+ 1709  git status
+ 1710  cd melis-v3.0/
+ 1711  ls
+ 1712  git status
+ 1713  cd ..
+ 1714  ls
+ 1715  tar cjvf melis-v3.0.tar.bz2 melis-v3.0/
+ 1716  ls
+ 1717  git status
+ 1718  ls
+ 1719  cp -fr melis-v3.0.tar.bz2 /media/czl/ntfs/
+ 1720  rm -fr /media/czl/ntfs/melis-v3.0.tar.bz2 
+ 1721  cp -fr melis-v3.0.tar.bz2 /media/czl/ntfs/
+ 1722  git pull
+ 1723  ls
+ 1724  cd melis-v3.0/
+ 1725  ls
+ 1726  git pulkl
+ 1727  git pull
+ 1728  git branch
+ 1729  git push
+ 1730  git status
+ 1731  git push
+ 1732  ls
+ 1733  git branch
+ 1734  pwd
+ 1735  ls
+ 1736  git log
+ 1737  pwd
+ 1738  make format
+ 1739  ls
+ 1740  cd source/
+ 1741  ls
+ 1742  source melis-env.sh 
+ 1743  ls
+ 1744  make format
+ 1745  git status
+ 1746  git diff
+ 1747  git checkout .
+ 1748  git status
+ 1749  git push
+ 1750  git pull
+ 1751  pwd
+ 1752  l
+ 1753  pwd
+ 1754  ls
+ 1755  exit
+ 1756  mediainfo VID_20181218_090054.mp4 
+ 1757  mediainfo VID_20181218_090106.mp4 
+ 1758  smplayer
+ 1759  ls
+ 1760  pwd
+ 1761  ls
+ 1762  git status
+ 1763  ls
+ 1764  exit
+ 1765  ls
+ 1766  cd WorkSpace/
+ 1767  LS
+ 1768  ls
+ 1769  cd melis-devel/
+ 1770  ls
+ 1771  cd melis-v3.0/
+ 1772  ls
+ 1773  cd source/
+ 1774  ls
+ 1775  cd ..
+ 1776  cd toolchain/
+ 1777  ls
+ 1778  exit
+ 1779  ls
+ 1780  cd WorkSpace/
+ 1781  ls
+ 1782  cd melis-devel/
+ 1783  ls
+ 1784  rm -fr melis-v3.0.tar.bz2 
+ 1785  ls
+ 1786  cd melis-v3.0/
+ 1787  ls
+ 1788  cd source/
+ 1789  ls
+ 1790  git status
+ 1791  ls
+ 1792  pwd
+ 1793  ls
+ 1794  cd ekernel/
+ 1795  ls
+ 1796  cd drivers/
+ 1797  ls
+ 1798  cd sys_clock/
+ 1799  ls
+ 1800  cd ..
+ 1801  ls
+ 1802  cd ..
+ 1803  ls
+ 1804  cd core
+ 1805  ls
+ 1806  cd zephyr/
+ 1807  ls
+ 1808  exit
+ 1809  cd WorkSpace/
+ 1810  lks
+ 1811  ls
+ 1812  pwd
+ 1813  ls
+ 1814  cd melis-devel/
+ 1815  ls
+ 1816  cd melis-v3.0/
+ 1817  ls
+ 1818  git pull
+ 1819  git log
+ 1820  git status
+ 1821  pwd
+ 1822  ls
+ 1823  git status
+ 1824  cd source/
+ 1825  ls
+ 1826  git status
+ 1827  ls
+ 1828  cd ekernel/
+ 1829  ls
+ 1830  pwd
+ 1831  ls
+ 1832  vim linker.map 
+ 1833  ls
+ 1834  pwd
+ 1835  ls
+ 1836  cd ..
+ 1837  ls
+ 1838  pwd
+ 1839  l
+ 1840  cd ..
+ 1841  ls
+ 1842  cd ..
+ 1843  cd riscv/
+ 1844  ls
+ 1845  cd qemu/
+ 1846  ls
+ 1847  cd unicorn/
+ 1848  ls
+ 1849  cd samples/
+ 1850  ls
+ 1851  gdb -tui ./sample_arm
+ 1852  sudo apt-get install qemu-system-arm
+ 1853  cd WorkSpace/
+ 1854  ls
+ 1855  cd riscv/
+ 1856  ls
+ 1857  cd qemu/
+ 1858  ls
+ 1859  mkdir qemu_debian
+ 1860  cd qemu_debian/
+ 1861  ls
+ 1862  wget http://ftp.debian.org/debian/dists/Debian7.9/main/installer-armel/20130430/images/versatile/netboot/initrd.gz
+ 1863  qemu-system-x86_64
+ 1864  cd WorkSpace/riscv/
+ 1865  ls
+ 1866  cd qemu/
+ 1867  ls
+ 1868  cd qemu_debian/
+ 1869  ls
+ 1870  sudo apt-get install qemu-system-x86_64
+ 1871  qemu-system-x86_64
+ 1872  sudo apt-get install qemu-system-x86
+ 1873  ls
+ 1874  cd ~
+ 1875  ls
+ 1876  df
+ 1877  mkdir qemu-system
+ 1878  cd qemu-system/
+ 1879  ls
+ 1880  pwd
+ 1881  cd .
+ 1882  cd ..
+ 1883  rm -fr qemu-system/
+ 1884  ls
+ 1885  pwd
+ 1886  cd ..
+ 1887  ls
+ 1888  cd ..
+ 1889  ls
+ 1890  df
+ 1891  mkdir qemu-system
+ 1892  sudo mkdir qemu-system
+ 1893  chmod 0655 qemu-system/
+ 1894  sudo chmod 0655 qemu-system/
+ 1895  cd qemu-system/
+ 1896  ls
+ 1897  pwd
+ 1898  ls
+ 1899  qemu-img create -f qcow2 ./ubun_qemu.img 30G
+ 1900  chmod 0777 . -R
+ 1901  cd ..
+ 1902  sudo chmod 0777 qemu-system/ -R
+ 1903  cd qemu-system/
+ 1904  ls
+ 1905  qemu-img create -f qcow2 ./ubun_qemu.img 30G
+ 1906  ls
+ 1907  exit
+ 1908  ls
+ 1909  cd ..
+ 1910  ls
+ 1911  exit
+ 1912  which qemu-system-arm 
+ 1913  cd /usr/bin/
+ 1914  ls
+ 1915  ls -l |grep qemu-system
+ 1916  qemu-system-arm -v
+ 1917  qemu-system-arm --help
+ 1918  qemu-system-arm --version
+ 1919  ls
+ 1920  pwd
+ 1921  ls
+ 1922  cd ~
+ 1923  cd Downloads/
+ 1924  ls -l |grep ubuntu
+ 1925  pwd
+ 1926  ls
+ 1927  cd qemu-3.0.0/
+ 1928  ls
+ 1929  mkcscope
+ 1930  vim
+ 1931  cd ..
+ 1932  ls
+ 1933  cd ..
+ 1934  grep "-enable-kvm" -nR
+ 1935  vim qemu-options.hx
+ 1936  grep "enable-kvm" -nR
+ 1937  ./configure 
+ 1938  grep "enable-kvm" -nR
+ 1939  vim
+ 1940  ls
+ 1941  vim
+ 1942  ls
+ 1943  grep enable-kvm -nR
+ 1944  grep cdrom -nR
+ 1945  grep enable-kvm -nR
+ 1946  vim qemu-option.hx
+ 1947  vim qemu-options.hx 
+ 1948  grep "enable_kvm" -nR
+ 1949  ls
+ 1950  cd WorkSpace/
+ 1951  ls
+ 1952  cd misc-test/
+ 1953  ls
+ 1954  cd ..
+ 1955  cd riscv/
+ 1956  ls
+ 1957  pwd
+ 1958  ls
+ 1959  cd qemu/
+ 1960  ls
+ 1961  pwd
+ 1962  ls
+ 1963  cd unicorn/
+ 1964  ls
+ 1965  pwd
+ 1966  ls
+ 1967  mkcscope
+ 1968  vim
+ 1969  find ./ -type f  -name "*.swp"
+ 1970  find ./ -type f  -name "*.swp" |xargs rm -fr
+ 1971  git status
+ 1972  vim
+ 1973  cd WorkSpace/riscv/
+ 1974  ls
+ 1975  cd qemu/
+ 1976  ls
+ 1977  cd unicorn/samples/
+ 1978  ls
+ 1979  gdb -tui sample_arm
+ 1980  vim sample_arm.c
+ 1981  gdb -tui sample_arm
+ 1982  grep "ARM Versatile" -nR
+ 1983  exit
+ 1984  cd ..
+ 1985  grep "op_movl_T0_r1" -nR
+ 1986  grep "op_movl_T0" -nR
+ 1987  exit
+ 1988  ls
+ 1989  cd ..
+ 1990  ls
+ 1991  cd linux-user/
+ 1992  grep elf_entry -nR
+ 1993  grep elf_ -nR
+ 1994  grep elf_E -nR
+ 1995  grep elf_e -nR
+ 1996  vim elfload.c 
+ 1997  ls
+ 1998  cd ..
+ 1999  ls
+ 2000  exit
+ 2001  xxd -g 1 a.bin 
+ 2002  l
+ 2003  vim pthread.c 
+ 2004  ls
+ 2005  pwd
+ 2006  ls
+ 2007  dir
+ 2008  ls
+ 2009  vim asm.S
+ 2010  ls
+ 2011  vim Makefile 
+ 2012  make
+ 2013  ./asm 
+ 2014  ./../qemu-3.0.0/build/arm-linux-user/qemu-arm ./asm
+ 2015  pwd
+ 2016  ls
+ 2017  dir
+ 2018  pwd
+ 2019  ls
+ 2020  dir
+ 2021  pwd
+ 2022  ls
+ 2023  dir
+ 2024  l
+ 2025  git status
+ 2026  pwd
+ 2027  ls
+ 2028  vim Makefile 
+ 2029  make
+ 2030  vim asm.dis 
+ 2031  vim asm.S 
+ 2032  vim asm.S
+ 2033  readelf -S asm
+ 2034  readelf -e asm
+ 2035  ls
+ 2036  readelf -S asm
+ 2037  readelf -s arm|grep msg
+ 2038  readelf -s asm |grep msg
+ 2039  pwd
+ 2040  ls
+ 2041  pwd
+ 2042  ls
+ 2043  git push
+ 2044  pwd
+ 2045  ls
+ 2046  vim asm.S
+ 2047  ls
+ 2048  pwd
+ 2049  ls
+ 2050  vim Makefile 
+ 2051  make
+ 2052  vim asm.dis 
+ 2053  readelf -s asm|grep msg
+ 2054  vim asm.dis 
+ 2055  ls
+ 2056  pwd
+ 2057  ls
+ 2058  pwd
+ 2059  ls
+ 2060  pwd
+ 2061  ls
+ 2062  pwd
+ 2063  ls
+ 2064  qemu-arm ./asm
+ 2065  ls
+ 2066  vim asm.S
+ 2067  pwd
+ 2068  ls
+ 2069  gdb -tui ../qemu-3.0.0/build/arm-linux-user/qemu-arm 
+ 2070  ls
+ 2071  cd ..
+ 2072  ls
+ 2073  cd qemu-3.0.0/
+ 2074  ls
+ 2075  cd build/
+ 2076  ls
+ 2077  history|grep target
+ 2078  ls
+ 2079  cd ..
+ 2080  ls
+ 2081  vim Makefile
+ 2082  vim configure 
+ 2083  ls
+ 2084  cd build/
+ 2085  ../configure --enable-debug-info --target-list=arm-softmmu,arm-linux-user 
+ 2086  make
+ 2087  cd ..
+ 2088  rm -fr build/
+ 2089  mkdir build
+ 2090  cd build/
+ 2091  ../configure --enable-debug-info --enable-debug-tcg --enable-debug --disable-strip --target-list=arm-softmmu,arm-linux-user 
+ 2092  make
+ 2093  sudo make install
+ 2094  ls
+ 2095  cd ..
+ 2096  ls
+ 2097  cd ..
+ 2098  ls
+ 2099  history|tee histor.log
