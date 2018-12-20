@@ -1,0 +1,1 @@
+../qemu-3.0.0/build/arm-linux-user/qemu-arm -D logfile.dis -d op ./asm

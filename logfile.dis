@@ -1,0 +1,55 @@
+PROLOGUE: [size=45]
+0x55d439aa5000:  55                       pushq    %rbp
+0x55d439aa5001:  53                       pushq    %rbx
+0x55d439aa5002:  41 54                    pushq    %r12
+0x55d439aa5004:  41 55                    pushq    %r13
+0x55d439aa5006:  41 56                    pushq    %r14
+0x55d439aa5008:  41 57                    pushq    %r15
+0x55d439aa500a:  4c 8b f7                 movq     %rdi, %r14
+0x55d439aa500d:  48 81 c4 78 fb ff ff     addq     $-0x488, %rsp
+0x55d439aa5014:  ff e6                    jmpq     *%rsi
+0x55d439aa5016:  33 c0                    xorl     %eax, %eax
+0x55d439aa5018:  48 81 c4 88 04 00 00     addq     $0x488, %rsp
+0x55d439aa501f:  c5 f8 77                 vzeroupper 
+0x55d439aa5022:  41 5f                    popq     %r15
+0x55d439aa5024:  41 5e                    popq     %r14
+0x55d439aa5026:  41 5d                    popq     %r13
+0x55d439aa5028:  41 5c                    popq     %r12
+0x55d439aa502a:  5b                       popq     %rbx
+0x55d439aa502b:  5d                       popq     %rbp
+0x55d439aa502c:  c3                       retq     
+
+OUT: [size=92]
+0x55d439aa5100:  41 8b 6e e4              movl     -0x1c(%r14), %ebp
+0x55d439aa5104:  85 ed                    testl    %ebp, %ebp
+0x55d439aa5106:  0f 8c 44 00 00 00        jl       0x55d439aa5150
+0x55d439aa510c:  41 c7 06 01 00 00 00     movl     $1, (%r14)
+0x55d439aa5113:  bd 94 80 00 00           movl     $0x8094, %ebp
+0x55d439aa5118:  65 67 8b 6d 00           movl     %gs:0(%ebp), %ebp
+0x55d439aa511d:  41 89 6e 04              movl     %ebp, 4(%r14)
+0x55d439aa5121:  41 c7 46 08 0c 00 00 00  movl     $0xc, 8(%r14)
+0x55d439aa5129:  41 c7 46 1c 04 00 00 00  movl     $4, 0x1c(%r14)
+0x55d439aa5131:  41 c7 46 3c 88 80 00 00  movl     $0x8088, 0x3c(%r14)
+0x55d439aa5139:  49 8b fe                 movq     %r14, %rdi
+0x55d439aa513c:  be 02 00 00 00           movl     $2, %esi
+0x55d439aa5141:  ba 00 00 00 46           movl     $0x46000000, %edx
+0x55d439aa5146:  b9 01 00 00 00           movl     $1, %ecx
+0x55d439aa514b:  e8 b2 cf a1 ff           callq    0x55d4394c2102
+0x55d439aa5150:  48 8d 05 ec fe ff ff     leaq     -0x114(%rip), %rax
+0x55d439aa5157:  e9 bc fe ff ff           jmp      0x55d439aa5018
+
+OUT: [size=70]
+0x55d439aa5240:  41 8b 6e e4              movl     -0x1c(%r14), %ebp
+0x55d439aa5244:  85 ed                    testl    %ebp, %ebp
+0x55d439aa5246:  0f 8c 2e 00 00 00        jl       0x55d439aa527a
+0x55d439aa524c:  41 c7 06 00 00 00 00     movl     $0, (%r14)
+0x55d439aa5253:  41 c7 46 1c 01 00 00 00  movl     $1, 0x1c(%r14)
+0x55d439aa525b:  41 c7 46 3c 94 80 00 00  movl     $0x8094, 0x3c(%r14)
+0x55d439aa5263:  49 8b fe                 movq     %r14, %rdi
+0x55d439aa5266:  be 02 00 00 00           movl     $2, %esi
+0x55d439aa526b:  ba 00 00 00 46           movl     $0x46000000, %edx
+0x55d439aa5270:  b9 01 00 00 00           movl     $1, %ecx
+0x55d439aa5275:  e8 88 ce a1 ff           callq    0x55d4394c2102
+0x55d439aa527a:  48 8d 05 02 ff ff ff     leaq     -0xfe(%rip), %rax
+0x55d439aa5281:  e9 92 fd ff ff           jmp      0x55d439aa5018
+
